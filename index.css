@@ -9,13 +9,12 @@
 }
 
 .pp {
-    top:25%;
+    top: 1vh;
     margin-top: 10rem;
     position: relative;
-    bottom: 50%;
+    bottom: 1vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
-
 .img-side {
     height: 100vh;
     overflow-x: hidden;
@@ -40,13 +39,15 @@
 }
 
 #touch {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: black;
+    font-weight: 500;
 }
 
 #touch:hover {
     background-color: black;
     text-decoration: none;
+    color:white;
 }
 
 #link {
@@ -62,3 +63,34 @@
     margin-left: 0.25em;
     margin-right: 0.25em;
 }
+
+/* .skills {
+    background-color: white;
+} */
+
+.skills h1{
+    text-align: center;
+    width:100%;
+    float:left;
+    margin-top: 1rem;
+}
+
+.skills {
+    font-family: "Hammersmith One", sans-serif;
+}
+.rule {
+    width: 50%;
+    align-self: center;
+    border-radius: 1.25em;
+    margin-top:  -0.5em;
+}
+
+.skill-box {
+    align-self: center;
+    /* background-color:  #ccffef; */
+    width: 80%;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    height: 50vh;
+}
+
