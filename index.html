@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>
-    <div class="row skills ml-3 pb-3">
+    <span class="row skills ml-3 pb-3">
         <h1 class="skills" style="text-align: center;"> My Skills </h1>
         <div class="skill-box">
             <hr class="rule">
@@ -116,8 +116,8 @@
             </div>
         </div>
         <br><br><br><br>
-    </div>
-    <div class="project mt-3 pl-4 pt-3">
+    </span>
+    <div class="project" style="padding-top: 2em;">
         <h1 style="text-align: center;"> My Projects </h1>
         <div class="tabs">
             <input type="radio" id="tab1" name="tab-control" checked>
@@ -125,14 +125,14 @@
             <input type="radio" id="tab3" name="tab-control">
             <input type="radio" id="tab4" name="tab-control">
             <ul>
-                <li title="Features"><label for="tab1" role="button"><i class="fas fa-globe"></i>
-                        <br><br><span>Websites</span></label></li>
-                <li title="Delivery Contents"><label for="tab2" role="button"><i class="fab fa-android"></i><br><span>
-                            <br>Flutter Apps</span></label></li>
-                <li title="Shipping"><label for="tab3" role="button"><i class="fab fa-python"></i><br><br><span><br><br>
-                            Python
+                <li title="Features"><label for="tab1" role="button">
+                        <span><i class="fas fa-globe"></i> Websites</span></label></li>
+                <li title="Delivery Contents"><label for="tab2" role="button"><span>
+                            <i class="fab fa-android"></i> Flutter Apps</span></label></li>
+                <li title="Shipping"><label for="tab3" role="button"><span>
+                            <i class="fab fa-python"></i> Python
                             Projects</span></label></li>
-                <li title="Returns"><label for="tab4" role="button"><i class="fas fa-mobile"></i><br><br><span><br><br>
+                <li title="Returns"><label for="tab4" role="button"><span><i class="fas fa-mobile"></i>
                             UI/UX
                             Designs</span></label></li>
             </ul>
@@ -140,28 +140,53 @@
                 <div class="indicator"></div>
             </div>
             <div class="content">
-                <section>
+                <section class="websites">
                     <div class="row">
-                        <div class="col">
-                            <div class="card card-front" style="height:10em; width:12em;">
-                                <img class="card-img-top" src="assets/images/sync-x.jpg">
-                                <div class="card-body">
-                                    <h6 class="card-text"> Minimalistic Website | HTML,CSS </h6>
-                                </div>
-                            </div>
-                            <div class="card card-back" style="height:10em; width:12em;">
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        Minimalistic Website
-                                    </h5>
-                                    <h6 class="card-text">
-                                        Simple Website using HTML/CSS as a part of a competition in Apr'20
-                                        See it <a href="http://aayanagarwal.me/comp/" target="_blank"> Here !</a>
-                                    </h6>
+                        <div class='col'>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/images/sync-x.jpg" alt="Screenshot of my Website"
+                                            style="width:320px;height:320px;">
+                                        <h2 class="bottom-left"></h2>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1 style="color:black">Minimalistic Website</h1>
+                                        <p style="color:black"> HTML and CSS | Developed in Apr'20 </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
+                        <div class='col'>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/images/sync-x.jpg" alt="Screenshot of my Website"
+                                            style="width:320px;height:320px;">
+                                        <h2 class="bottom-left"></h2>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1 style="color:black">Minimalistic Website</h1>
+                                        <p style="color:black"> HTML and CSS | Developed in Apr'20 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/images/sync-x.jpg" alt="Screenshot of my Website"
+                                            style="width:320px;height:320px;">
+                                        <h2 class="bottom-left"></h2>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h1 style="color:black">Minimalistic Website</h1>
+                                        <p style="color:black"> HTML and CSS | Developed in Apr'20 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section>
