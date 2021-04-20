@@ -94,9 +94,20 @@
     margin-right: 10vw;
     margin-left: 10vw;
     height: 50vh;
+    margin-bottom: 7em;
 }
 
 .skill-type {
     margin-left: 2px;
     margin-right: 2px;
+}
+
+/* Footer */
+
+.foot{
+  background-color:  #e67300;
+  width: 100%;
+  height: 5em;
+  line-height: 5rem;
+  float: right;
 }
